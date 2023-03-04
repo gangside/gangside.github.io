@@ -54,13 +54,15 @@ about_content: | # this will include new lines to allow paragraphs
   
   잘 짜여진 팀 구성으로 한 <mark>프로젝트의 처음과 끝</mark>을 마무리 지은 경험이 있습니다.
   
-  개발에 있어서 상황이 적절하다면 <mark>새로운 것을 도입하고 배우는 것</mark>에 거부감이 없습니다.
+  개발에 있어서 상황에 적절하다면 <mark>새로운 것을 도입하고 배우는 것</mark>에 거부감이 없습니다.
   
-  2023년에는 게임 서버 쪽과 백엔드 쪽을 공부하고 있고, 이를 유니티 사이드 프로젝트에 적용하는 <mark>경험을 쌓는 것</mark>을 목표합니다.  
+  2023년에는 게임 서버 쪽과 백엔드 쪽을 공부하고 있고, 이를 유니티 사이드 프로젝트에 적용하는 <mark>경험을 쌓는 것</mark>을 목표합니다.
 
 content:
-  - title: 프로젝트 # Title for the section
+  - title: 실무 프로젝트 # Title for the section
+    sub_title: 공개된 영상이 있는 경우만 리스트업 했습니다.
     layout: list # Type of content section (list/text)
+    border: weak
     content:
       - layout: left
         title: Unity
@@ -84,8 +86,19 @@ content:
         title: Android Studio
         #sub_title: 안드로이드 스튜디오 작업물 목록입니다.
         description: | # this will include new lines to allow paragraphs
-          - (M2S) 아이닥터 안드로이드 앱 [links](https://www.youtube.com/watch?v=rnAXkScCjgg)
-            *IOS앱 영상이지만 동일한 기능으로 안드로이드 앱 제작       
+          - 아이닥터 앱 [links](https://www.youtube.com/watch?v=rnAXkScCjgg) 
+          (IOS 영상이지만 동일한 기능의 안드로이드 앱 제작)       
+  #- title: 개인 프로젝트 # Title for the section
+  #  layout: list # Type of content section (list/text)
+  #  content:
+  #    - layout: left
+  #      title: Unity
+  #      description: | # this will include new lines to allow paragraphs
+  #        - VR비밀의바다 [links](https://www.youtube.com/watch?v=hDHgvbOflq4)
+  
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
 
   - title: 경력 # Title for the section
     layout: list # Type of content section (list/text)
@@ -97,7 +110,7 @@ content:
         sub_title: 유니티 클라이언트
         caption: 2020.02 ~ 현재
         quote: >
-          아이트래킹을 활용한 눈 건강 헬스케어 솔루션 회사
+          아이트래킹을 활용한 눈 건강 헬스케어 솔루션 스타트업 입니다
         #description: | # this will include new lines to allow paragraphs
         #  아이트래킹을 활용한 눈 건강 헬스케어 솔루션 회사
 
