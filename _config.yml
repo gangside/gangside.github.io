@@ -48,9 +48,17 @@ github_username: gangside
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+ 4년차 유니티 클라이언트 개발자입니다. 3년간 유니티 엔진을 이용해 게임 개발보다는 일반 솔루션 앱에 가까운 앱들을 개발을 해왔습니다.
+  
+  주로 해온 경험은 UI 작업, REST API 연동 작업, Unity XR Toolkit을 활용한 VR 앱 제작, VR 360도 및 180도 영상 플레이, TCP 소켓을 활용한 1:1 패킷 통신 구축, UDP 소켓을 통한 1:1 화면 미러링이 있습니다.
+  
+  그 외 한 번씩 거쳐간 경험으로는 유니티를 이용한 TV앱 제작, 스마트 워치인 샤오미 및 핏빛과 유니티의 연동, 핏빗 전용 시계 앱 제작, 간단한 안드로이든 네이티브 앱 제작 등이 있습니다.
+  
+  적은 팀 구성과 잘 짜여진 팀 구성으로 한 <mark>프로젝트의 처음과 끝</mark>을 마무리 지은 경험이 있습니다.
+  
+  개발에 있어서 상황이 적절하다면 <mark>새로운 것을 도입하고 배우는 것</mark>에 거부감이 없습니다.
+  
+  2023년에는 게임 서버 쪽과 백엔드 쪽을 넓게 공부해 이를 유니티 프로젝트에 적용하는걸 목표로 잡고 노력하고 있습니다.
 
 content:
   - title: Projects # Title for the section
