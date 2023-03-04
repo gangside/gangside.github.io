@@ -56,7 +56,13 @@ about_content: | # this will include new lines to allow paragraphs
   
   개발에 있어서 상황이 적절하다면 <mark>새로운 것을 도입하고 배우는 것</mark>에 거부감이 없습니다.
   
-  2023년에는 게임 서버 쪽과 백엔드 쪽을 공부하고 있고, 이를 유니티 사이드 프로젝트에 적용해 경험을 쌓는 것을 목표하고 있습니다.
+  2023년에는 게임 서버 쪽과 백엔드 쪽을 공부하고 있고, 이를 유니티 사이드 프로젝트에 적용해 경험을 쌓는 것을 목표하고 있습니다.  
+  - Tables 
+  |   |   |   |   |   |
+  |---|---|---|---|---|
+  |   |   |   |   |   |
+  |   |   |   |   |   |
+  |   |   |   |   |   |
 
 content:
   - title: Projects # Title for the section
