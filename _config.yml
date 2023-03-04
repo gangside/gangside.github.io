@@ -52,19 +52,19 @@ about_content: | # this will include new lines to allow paragraphs
   
   그 외 유니티 TV앱 제작 및 배포, 스마트 워치 핏빛 유니티 연동, 핏빗 시계 앱 제작, 안드로이드 네이티브 앱 제작 등이 있습니다.
   
-  소규모 팀과 잘 짜여진 팀 구성으로 한 <mark>프로젝트의 처음과 끝</mark>을 마무리 지은 경험이 있습니다.
+  잘 짜여진 팀 구성으로 한 <mark>프로젝트의 처음과 끝</mark>을 마무리 지은 경험이 있습니다.
   
   개발에 있어서 상황이 적절하다면 <mark>새로운 것을 도입하고 배우는 것</mark>에 거부감이 없습니다.
   
-  2023년에는 게임 서버 쪽과 백엔드 쪽을 공부하고 있고, 이를 유니티 사이드 프로젝트에 적용해 <mark>더 많은 경험을 쌓는 것</mark>을 목표합니다.  
+  2023년에는 게임 서버 쪽과 백엔드 쪽을 공부하고 있고, 이를 유니티 사이드 프로젝트에 적용하는 <mark>경험을 쌓는 것</mark>을 목표합니다.  
 
 content:
-  - title: Projects # Title for the section
+  - title: 프로젝트 # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-left
+      - layout: left
         title: Unity
-        sub_title: 유니티로 작업한 프로젝트 목록입니다.
+        #sub_title: 
         # link: github.com/sproogen
         # link_text: Project Website
         #additional_links:
@@ -77,20 +77,17 @@ content:
         #quote: >
         #  유니티로 작업한 프로젝트 목록입니다.
         description: | # this will include new lines to allow paragraphs
-          - PBL [links](http://foobar.com)
-          - 아이닥터 라이트 (HMD Only) [links](http://foobar.com)
-          - 아이닥터 키오스크 [links](http://foobar.com)
-          - 아이닥터 네이티브 앱 [links](http://foobar.com)
-          - 첫 앱 [links](http://foobar.com)
+          - 아이닥터 프로 [links](https://www.youtube.com/watch?v=hDHgvbOflq4)
+          - 아이닥터 라이트 [links](https://www.youtube.com/watch?v=Cr0YxkobBNo)
+      
       - layout: left
         title: Android Studio
-        sub_title: 안드로이드 스튜디오 작업물 목록입니다.
+        #sub_title: 안드로이드 스튜디오 작업물 목록입니다.
         description: | # this will include new lines to allow paragraphs
-          - 아이닥터 안드로이드 앱 [links](http://foobar.com)
-        
-          
+          - (M2S) 아이닥터 안드로이드 앱 [links](https://www.youtube.com/watch?v=rnAXkScCjgg)
+            *IOS앱 영상이지만 동일한 기능으로 안드로이드 앱 제작       
 
-  - title: Experience # Title for the section
+  - title: 경력 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -99,10 +96,10 @@ content:
         # link_text: boringcompany.com
         sub_title: 유니티 클라이언트
         caption: 2020.02 ~ 현재
-        #quote: >
-        #  아이트래킹을 호라요한 헬스케어 서비스
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           아이트래킹을 활용한 눈 건강 헬스케어 솔루션 회사
+        #description: | # this will include new lines to allow paragraphs
+        #  아이트래킹을 활용한 눈 건강 헬스케어 솔루션 회사
 
   #- title: Education # Title for the section
   #  layout: list # Type of content section (list/text)
