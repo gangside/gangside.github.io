@@ -152,7 +152,7 @@ content:
       - layout: left
         title: Unity
         description: | # this will include new lines to allow paragraphs
-          - 비밀의바다VR [links](https://www.youtube.com/watch?v=gttbsgyEXFI) - 유니티 첫 작업물
+          - 비밀의바다VR [links](https://www.youtube.com/watch?v=gttbsgyEXFI)
           - (예정) 2023년 포폴용 포폴 및 라이브 포폴 2개 갱신 준비 중
   - title: 경력 # Title for the section
     layout: list # Type of content section (list/text)
