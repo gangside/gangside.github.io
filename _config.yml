@@ -146,7 +146,14 @@ content:
   #      title: Unity
   #      description: | # this will include new lines to allow paragraphs
   #        - VR비밀의바다 [links](https://www.youtube.com/watch?v=hDHgvbOflq4)
-
+  - title: 개인 프로젝트 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Unity
+        description: | # this will include new lines to allow paragraphs
+          - 비밀의바다VR [links](https://www.youtube.com/watch?v=gttbsgyEXFI) - 유니티 첫 작업물
+          - (예정) 2023년 포폴용 포폴 및 라이브 포폴 2개 갱신 준비 중
   - title: 경력 # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -161,6 +168,7 @@ content:
         #description: | # this will include new lines to allow paragraphs
         #  아이트래킹을 활용한 눈 건강 헬스케어 솔루션 회사
 
+          
   #- title: Education # Title for the section
   #  layout: list # Type of content section (list/text)
   #  content:
