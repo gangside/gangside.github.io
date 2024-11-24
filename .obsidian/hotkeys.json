@@ -1,11 +1,3 @@
 {
-  "file-explorer:new-file": [],
-  "quickadd:choice:792b8ed2-670f-44c5-8942-f360ab14cdcc": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ]
+  "file-explorer:new-file": []
 }
