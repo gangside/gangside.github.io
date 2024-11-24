@@ -67,6 +67,7 @@ imageNameKey:  "<% newFileName %>"
 ---
 
 <% contentItems.length > 0 ? `
-# 이 글에서 다룰 내용
-${contentItems.join('\n')} 
+>${contentItems.join('\n')} 
+{: .prompt-info }
 ` : '' %>
+

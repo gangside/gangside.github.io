@@ -1,5 +1,5 @@
 {
-  "imageNamePattern": "{{imageNameKey}}-{{DATE:YYYYMMDD}}",
+  "imageNamePattern": "{{imageNameKey}}",
   "dupNumberAtStart": false,
   "dupNumberDelimiter": "-",
   "dupNumberAlways": false,
