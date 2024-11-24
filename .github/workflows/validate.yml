@@ -1,0 +1,28 @@
+# .github/workflows/validate.yml
+name: Validate Categories
+
+on:
+  push:
+    paths:
+      - "_posts/**/*"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Validate post categories
+        run: |
+          # 카테고리 검증 스크립트
+          ruby -e '
+            require "yaml"
+            valid_categories = YAML.load_file("_data/categories.yml").map { |c| c["name"] }
+            Dir.glob("_posts/*.md").each do |post|
+              categories = YAML.load_file(post)["categories"]
+              invalid = categories - valid_categories
+              if invalid.any?
+                puts "Invalid categories in #{post}: #{invalid.join(", ")}"
+                exit 1
+              end
+            end
+          '

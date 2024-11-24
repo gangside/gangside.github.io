@@ -1,0 +1,7 @@
+# _data/categories.yml
+- name: devlogs
+  description: 갑자기 정리하고 싶을 때
+  # image: /assets/img/categories/programming.jpg  # 선택사항
+
+- name: projects
+  description: 사이드프로젝트 관련 이야기

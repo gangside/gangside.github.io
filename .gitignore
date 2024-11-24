@@ -25,3 +25,10 @@ package-lock.json
 # Misc
 _sass/dist
 assets/js/dist
+
+
+#
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.trash/
