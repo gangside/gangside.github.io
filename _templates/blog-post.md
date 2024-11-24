@@ -63,6 +63,7 @@ title: "<% title %>"
 date: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %> +0900
 categories: [<% category %>]
 tags: [<% formattedTags.join(', ') %>]
+imageNameKey:  "<% newFileName %>"
 ---
 
 <% contentItems.length > 0 ? `
