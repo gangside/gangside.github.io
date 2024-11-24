@@ -29,7 +29,7 @@ imageNameKey: 2024-11-24-flutter-cleanarchitecture-mvvm-riverpod-적용-정리-1
 2. domain으로 불리는 프로그램에 대한 것들을 추상화한 레이어 -> 프로그램 레이어
 3. Presentation으로 불리는 -> 사용자 레이어
 
-![](../../media/attachments/2024-11-24-flutter-cleanarchitecture-mvvm-riverpod-적용-정리-1-20241124.png)
+![](media/attachments/2024-11-24-flutter-cleanarchitecture-mvvm-riverpod-적용-정리-1-20241124.png)
 
 이렇게 정리를 한 기준은 각 레이어들이 사람이라면 레이어가 상대하는 고객이 누구일까에 대한 고민을 기준으로 정리했다. 왜냐하면 우리가 결국 어떠한 판단을 가지고 소스코드, 폴더, 데이터 등을 각 레이어에 맞춰넣어야 하는데 필연적으로 레이어의 고객이 누구인지 알아야하기때문이다. 모든 요구사항은 고객으로부터 나오니깐 말이다.
 
