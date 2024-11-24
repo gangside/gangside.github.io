@@ -1,3 +1,9 @@
 {
-  "theme": "system"
+  "theme": "system",
+  "textFontFamily": "Pretendard",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "custom"
+  ],
+  "interfaceFontFamily": "Pretendard"
 }
