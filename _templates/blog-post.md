@@ -4,7 +4,7 @@ const title = await tp.system.prompt("제목을 입력하세요");
 if (!title) return;
 
 // 카테고리 선택 (텍스트와 함께)
-const CATEGORIES = ["devlogs", "projects"];
+const CATEGORIES = ["devlogs", "projects", "journals"];
 const category = await tp.system.suggester(
    CATEGORIES,
    CATEGORIES,
@@ -13,7 +13,7 @@ const category = await tp.system.suggester(
 if (!category) return;
 
 // 폴더 선택 옵션
-const folders = ["_drafts", "_posts/devlogs", "_posts/projects"];
+const folders = ["_drafts", "_posts/devlogs", "_posts/projects", "_posts/journals"];
 const targetFolder = await tp.system.suggester(
    folders,
    folders,
